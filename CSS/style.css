@@ -194,6 +194,7 @@
 }
 /* Content (Left) Column Styles */
 .content-column {
+  /* width: 350px; */
   height: 90%;
   padding: 3rem;
   display: flex;
@@ -210,10 +211,11 @@
 }
 
 .sub-heading {
-  font-size: 1.10rem;
+  font-size: 1.5rem;
   font-weight: 450px;
-  color: #38bfc3;
+  color: #002A48;
   margin-bottom: 15px;
+
 }
 
 .paragraph {
@@ -355,6 +357,14 @@
     background-position: center;
 }
 
+.main-heading10 {
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: #0F5395;
+  margin: 15px  0;
+  padding-top: 40px;
+}
+
 .success-section h2 {
   color: #fff;
     font-size: 2.5em;
@@ -469,8 +479,16 @@
 }
 
 .line{
-    margin: 17px 0;
+    width: 200px; 
+    /* margin: 20px auto; */
+    /* margin-left: 0; */
+    padding: 10px; 
+    line-height: 1.5; 
+    /* border: 1px solid #007bff;  */
+    color: #333;
+    font-style: normal; 
 }
+
 .footer-section h3 {
     color: #38BFC3;
     font-size: 1.3em;
@@ -519,13 +537,18 @@
     margin-right: 10px;
     font-size: 0.9em;
     color: #2ec4b6;
+    margin-bottom: 10px;
 }
 
 .location-link {
-    color: #2ec4b6;
     display: block;
     margin-top: 10px;
     text-decoration: underline;
+}
+
+.footer-col a{
+    color: #38BFC3;
+
 }
 
 .copyright-bar {

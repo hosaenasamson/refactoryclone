@@ -150,6 +150,11 @@
   padding-bottom: 0.75rem;
 }
 
+.button-container .banner-button:hover{
+  background-color: #fff;
+  color: #663367;
+}
+
 .button-container {
   display: flex;
   flex-direction: row;

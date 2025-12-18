@@ -199,7 +199,6 @@
 }
 /* Content (Left) Column Styles */
 .content-column {
-  /* width: 350px; */
   height: 90%;
   padding: 3rem;
   display: flex;
